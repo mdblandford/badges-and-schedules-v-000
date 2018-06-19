@@ -11,7 +11,6 @@ def assign_rooms(array)
   counter = 1
   array.each {|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
     counter += 1
-  end
   speakerArray
 end
 
