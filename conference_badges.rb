@@ -9,7 +9,7 @@ end
 def assign_rooms(array)
   room_assignments = []
   array.each_with_index do |speaker|
-    room_assignments << "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+    room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
 end
 
 def printer(array)
