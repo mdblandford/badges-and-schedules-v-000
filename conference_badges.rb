@@ -9,8 +9,10 @@ end
 def assign_rooms(array)
   speakerArray = []
   counter = 1
-  array.each {|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
+  array.each do |speaker|
+    puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
     counter += 1
+  end
   speakerArray
 end
 
